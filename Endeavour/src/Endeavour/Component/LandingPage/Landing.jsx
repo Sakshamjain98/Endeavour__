@@ -32,7 +32,7 @@ const About = () => {
     WebkitTextFillColor: "transparent",
   };
   return (
-    <div className="AboutMe mb-16 mx-2" >
+    <div className="AboutMe mb-16 mx-0" >
       <h2 className=" ha mb-16  ">
         {/* <span 
         style={{ fontSize: "3rem" ,
@@ -45,7 +45,7 @@ const About = () => {
         </h1>
         <h2>
 
-        <span className="mt-10 leading-6 font-serif" style={{ fontSize: "1.2rem",
+        <span className="mt-10 leading-6 font-serif mr-20 text-wrap" style={{ fontSize: "1.2rem",
     color:"white" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, id hic voluptates similique, veniam consequatur autem rem commodi at rerum sunt cum. Laboriosam qui mollitia quia temporibus modi? Exercitationem, in!</span>
     </h2>
       </h2>
@@ -90,6 +90,20 @@ const Myinfo = () => {
           <button className="register  w-48 h-12 shadow-blue-200 shadow-md text-white inline-block md:ml-20">
       {/* <i className=""></i> */}
       Register 
+      <div className="overlay">
+        <div className="overlay-text">Now</div>
+      </div>
+    </button>
+        
+        </a>
+</Link>
+<Link to="/payment">
+
+        <a href="">
+          {" "}
+          <button className="register  w-48 h-12 shadow-blue-200 shadow-md text-white inline-block md:ml-20">
+      {/* <i className=""></i> */}
+      Pay 
       <div className="overlay">
         <div className="overlay-text">Now</div>
       </div>
