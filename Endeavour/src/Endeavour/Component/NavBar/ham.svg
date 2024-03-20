@@ -1,0 +1,42 @@
+var _path, _path2, _path3;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgHam(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 32,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 32 24",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    stroke: "#fff",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 3,
+    d: "M2 2H30.5"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    stroke: "#fff",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 3,
+    d: "M2 12H30.5"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    stroke: "#fff",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 3,
+    d: "M2 22H30.5"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgHam);
+export default __webpack_public_path__ + "static/media/ham.a63ab4de035aef5e3f6e82283f1bae0a.svg";
+export { ForwardRef as ReactComponent };
